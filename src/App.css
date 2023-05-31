@@ -1,0 +1,53 @@
+* {
+  background-color: #171717;
+}
+.general-section .heading{
+  font-size: 1.5rem;
+  position: relative;
+  border-bottom: 1px solid rgb(65, 64, 64);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 31.5%;
+  height: 50px;
+}
+.general-section li {
+  color: white;
+  list-style: none;
+}
+
+.general-section li::before {
+  position: absolute;
+  top: -12px;
+  left: 29%;
+  /* border: 1px solid red; */
+  content: "\2022";
+  font-size: 50px;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(264deg, rgba(255, 16, 16, 1) 0%, rgb(43, 42, 42) 100%);
+
+}
+
+/* ===========Tablet media Query ============== */
+@media (min-width: 768px) and (max-width: 1024px){
+
+  .general-section .heading{
+    padding-left: 17.5%;
+  }
+  .general-section li::before{
+    left: 14%;
+  }
+
+}
+
+/* ===========Phone media Query ============== */
+@media (max-width: 480px){
+  .general-section .heading{
+    padding-left: 9.5%;
+  }
+  .general-section li::before{
+    left: 3%;
+  }
+}

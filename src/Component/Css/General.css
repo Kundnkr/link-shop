@@ -1,0 +1,92 @@
+.general {
+    color: white;
+    margin: auto;
+    margin-top: 15px;
+    width: 40%;
+    border-radius: 25px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(255, 16, 16);
+    background: linear-gradient(264deg, rgba(255, 16, 16, 1) 0%, rgb(43, 42, 42) 100%);
+}
+
+.general-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 15px;
+}
+.logo-name{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.logo {
+    border: 1px solid rgb(102, 101, 101);
+    padding: 10px;
+    border-radius: 50%;
+    fill:rgb(182, 182, 182)
+}
+
+.btnlink {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 130px;
+    height: 35px;
+    cursor: pointer;
+    margin-top: 15px;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 16, 16);
+    background: linear-gradient(264deg, rgba(255, 16, 16, 1) 0%, rgb(43, 42, 42) 100%);
+    border: none;
+    padding: 2px;
+    transition: 0.3s;
+}
+.btn-container{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background-color: #171717;
+}
+.btnlink:hover {
+    background: linear-gradient(264deg, rgb(168, 46, 46) 0%, rgb(43, 42, 42) 100%);
+}
+
+.btnlink span {
+    background-color: auto;
+    color: white;
+    border-right: 1px solid white;
+    padding-right: 10px;
+    margin-right: 5px;
+}
+
+/* ===========Tablet media Query ============== */
+@media (min-width: 768px) and (max-width: 1024px){
+    .general{
+        width: 70%;
+    }
+}
+
+
+/* ===========Phone media Query ============== */
+@media (max-width: 480px) {
+    .general{
+        width: 95%;
+    }
+}
