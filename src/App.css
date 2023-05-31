@@ -8,7 +8,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-left: 31.5%;
+  padding-left:29.5%;
   height: 50px;
 }
 .general-section li {
@@ -17,12 +17,9 @@
 }
 
 .general-section li::before {
-  position: absolute;
-  top: -12px;
-  left: 29%;
-  /* border: 1px solid red; */
-  content: "\2022";
-  font-size: 50px;
+  content: "⚡";
+  font-size: 20px;
+  margin-right: 15px;
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -34,10 +31,7 @@
 @media (min-width: 768px) and (max-width: 1024px){
 
   .general-section .heading{
-    padding-left: 17.5%;
-  }
-  .general-section li::before{
-    left: 14%;
+    padding-left: 14.5%;
   }
 
 }
@@ -45,9 +39,6 @@
 /* ===========Phone media Query ============== */
 @media (max-width: 480px){
   .general-section .heading{
-    padding-left: 9.5%;
-  }
-  .general-section li::before{
-    left: 3%;
+    padding-left: 2.5%;
   }
 }

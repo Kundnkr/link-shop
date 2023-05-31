@@ -9,9 +9,8 @@
     justify-content: center;
     flex-direction: column;
     background: rgb(255, 16, 16);
-    background: linear-gradient(264deg, rgba(255, 16, 16, 1) 0%, rgb(43, 42, 42) 100%);
+    background-image: linear-gradient(264deg, rgba(255, 16, 16, 1) 0%, rgb(43, 42, 42) 100%);
 }
-
 .general-container {
     display: flex;
     justify-content: center;
@@ -48,11 +47,13 @@
     align-items: center;
     justify-content: center;
     background: rgb(255, 16, 16);
-    background: linear-gradient(264deg, rgba(255, 16, 16, 1) 0%, rgb(43, 42, 42) 100%);
+    background-image: linear-gradient(264deg, rgba(255, 16, 16, 1) 0%, rgb(43, 42, 42) 100%);
     border: none;
     padding: 2px;
     transition: 0.3s;
 }
+
+
 .btn-container{
     box-sizing: border-box;
     display: flex;

@@ -1,7 +1,7 @@
 import './App.css';
 import General from './Component/General';
 import { BrowserRouter } from 'react-router-dom'
-import { FaBriefcase, FaCoffee, FaGithub } from "react-icons/fa";
+import { FaBriefcase, FaCoffee, FaGithub, FaInstagram } from "react-icons/fa";
 function App() {
   let portfolio = {
     name:"Portfolio",
@@ -34,6 +34,7 @@ function App() {
           <General name={portfolio.name} link = {portfolio.link} disc = {portfolio.disc} logo={<FaBriefcase className='logo' size={"30px"} />} />
           <General name={BuyCoffee.name} link = {BuyCoffee.link} disc = {BuyCoffee.disc} logo={<FaCoffee className='logo' size={"30px"} />} />
           <General name={gihub.name} link = {gihub.link} disc = {gihub.disc} logo={<FaGithub className='logo' size={"30px"} />} />
+          <General name={instagram.name} link = {instagram.link} disc = {instagram.disc} logo={<FaInstagram className='logo' size={"30px"} />} />
         </div>
       </BrowserRouter>
     </>

@@ -1,7 +1,6 @@
 import React from 'react'
 import { FaLink } from "react-icons/fa";
 import { Link } from 'react-router-dom'
-
 import './Css/General.css'
 
 export default function General({ logo, name, link, disc }) {
