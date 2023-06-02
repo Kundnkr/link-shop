@@ -1,7 +1,10 @@
 import './App.css';
 import General from './Component/General';
+import Footer from './Component/Footer';
 import { BrowserRouter } from 'react-router-dom'
 import { FaBriefcase, FaCoffee, FaGithub, FaInstagram } from "react-icons/fa";
+
+
 function App() {
   let portfolio = {
     name:"Portfolio",
@@ -36,6 +39,7 @@ function App() {
           <General name={gihub.name} link = {gihub.link} disc = {gihub.disc} logo={<FaGithub className='logo' size={"30px"} />} />
           <General name={instagram.name} link = {instagram.link} disc = {instagram.disc} logo={<FaInstagram className='logo' size={"30px"} />} />
         </div>
+        <Footer/>
       </BrowserRouter>
     </>
   );
