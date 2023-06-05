@@ -1,8 +1,10 @@
+
 import './App.css';
 import General from './Component/General';
 import Footer from './Component/Footer';
 import { BrowserRouter } from 'react-router-dom'
 import { FaBriefcase, FaCoffee, FaGithub, FaInstagram } from "react-icons/fa";
+
 
 
 function App() {
@@ -26,18 +28,20 @@ function App() {
     disc:"Follow me on Instagram to keep up with what I'm doing. I share tons of useful code snippets that can save you time",
     link: "https://www.instagram.com/kundnkr/"
   }
+
+
   
   return (
     <>
       <BrowserRouter>
         <div className="general-section">
-          <div className="heading">
+          <div className="heading" >
             <li>General</li>
           </div>
-          <General name={portfolio.name} link = {portfolio.link} disc = {portfolio.disc} logo={<FaBriefcase className='logo' size={"30px"} />} />
-          <General name={BuyCoffee.name} link = {BuyCoffee.link} disc = {BuyCoffee.disc} logo={<FaCoffee className='logo' size={"30px"} />} />
-          <General name={gihub.name} link = {gihub.link} disc = {gihub.disc} logo={<FaGithub className='logo' size={"30px"} />} />
-          <General name={instagram.name} link = {instagram.link} disc = {instagram.disc} logo={<FaInstagram className='logo' size={"30px"} />} />
+          <General delay="8000" name={portfolio.name} link = {portfolio.link} disc = {portfolio.disc} logo={<FaBriefcase className='logo' size={"30px"} />} />
+          <General delay="6000" name={BuyCoffee.name} link = {BuyCoffee.link} disc = {BuyCoffee.disc} logo={<FaCoffee className='logo' size={"30px"} />} />
+          <General delay="4000" name={gihub.name} link = {gihub.link} disc = {gihub.disc} logo={<FaGithub className='logo' size={"30px"} />} />
+          <General delay="3500" name={instagram.name} link = {instagram.link} disc = {instagram.disc} logo={<FaInstagram className='logo' size={"30px"} />} />
         </div>
         <Footer/>
       </BrowserRouter>

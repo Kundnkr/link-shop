@@ -1,14 +1,19 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { FaLink } from "react-icons/fa";
 import { Link } from 'react-router-dom'
 import './Css/General.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
-export default function General({ logo, name, link, disc }) {
+export default function General({ logo, name, link, disc, delay }) {
+    useEffect(() => {
+        AOS.init();
+      }, [])
     return (
         <>
-            <section className='general'>
-                <div className="general-container">
-                    <div className="logo-name">
+            <section className='general' data-aos="fade-up" data-aos-duration={delay}>
+                <div className="general-container" >
+                    <div className="logo-name" >
                         {logo}
                         <h3>{name}</h3>
                     </div>
