@@ -11,7 +11,7 @@ export default function General({ logo, name, link, disc, delay }) {
       }, [])
     return (
         <>
-            <section className='general' data-aos="fade-up" data-aos-duration={delay}>
+            <section className='general' data-aos="fade-up" data-aos-duration={delay} >
                 <div className="general-container" >
                     <div className="logo-name" >
                         {logo}
