@@ -25,7 +25,7 @@ function App() {
   }
   let instagram = {
     name: "Instagram",
-    disc: "Follow me on Instagram to keep up with what I'm doing. I share tons of useful code snippets that can save you time",
+    disc: "Stay in the loop with my life's adventures by connecting with me on Instagram.",
     link: "https://www.instagram.com/kundnkr/"
   }
   let youtube = {
