@@ -11,7 +11,7 @@ function App() {
   let portfolio = {
     name: "Portfolio",
     disc: "Explore my portfolio website to discover a curated collection of my creative work, showcasing my skills in design, development, and more.",
-    link: "https://kundnkr.netlify.app/"
+    link: "https://kundankr.online/"
   }
   let BuyCoffee = {
     name: "Buy Me a Coffee",
