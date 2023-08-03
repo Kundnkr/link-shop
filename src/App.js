@@ -55,10 +55,9 @@ function App() {
           </div>
           <General delay="5000" className="card" name={portfolio.name} link={portfolio.link} disc={portfolio.disc} logo={<FaBriefcase className='logo' size={"30px"} />} />
           <General delay="5000" className="card" name={youtube.name} link={youtube.link} disc={youtube.disc} logo={<FaYoutube className='logo' size={"30px"} />} />
-          <General delay="5000" className="card" name={discord.name} link={discord.link} disc={discord.disc} logo={<FaDiscord className='logo' size={"30px"} />} />
-          <General delay="5000" className="card" name={telegram.name} link={telegram.link} disc={telegram.disc} logo={<FaTelegram className='logo' size={"30px"} />} />
           <General delay="5000" className="card" name={BuyCoffee.name} link={BuyCoffee.link} disc={BuyCoffee.disc} logo={<FaCoffee className='logo' size={"30px"} />} />
           <General delay="5000" className="card" name={gihub.name} link={gihub.link} disc={gihub.disc} logo={<FaGithub className='logo' size={"30px"} />} />
+          <General delay="5000" className="card" name={discord.name} link={discord.link} disc={discord.disc} logo={<FaDiscord className='logo' size={"30px"} />} />
           <General delay="5000" className="card" name={instagram.name} link={instagram.link} disc={instagram.disc} logo={<FaInstagram className='logo' size={"30px"} />} />
         </div>
         <Footer />
